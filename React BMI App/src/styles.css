@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.calculator {
+  margin: auto;
+  position: relative;
+  border: 1px solid black;
+  background: rgb(0, 255, 255);
+  height: 50%;
+  width: 50%;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+input {
+  border: 1px solid black;
+  width: 250px;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 10px;
+}
+
+button {
+  appearance: none;
+  outline: 0;
+  background-color: rgba(245, 54, 225, 0.8);
+  border: 10px;
+  margin: 14px;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 15px;
+  font-size: 18px;
+  position: relative;
+}
+
+button:hover {
+  background-color: rgba(99, 54, 89, 0.8);
+  font-size: 110%;
+}
